@@ -1,4 +1,13 @@
-h1 {font-family: 'Courier New', Courier, monospace;
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+h1 {
     color: #0daf7c;
      text-align: center;}
 p  {text-align: center;}
