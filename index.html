@@ -86,9 +86,20 @@
           <script type="module"
 src="https://gradio.s3-us-west-2.amazonaws.com/3.2/gradio.js">
 </script>
-      <gradio-app space="Funbi/Summarize"></gradio-app>
-      <gradio-app space="Funbi/Quest"></gradio-app>
-      <gradio-app space="Funbi/Chatbot"></gradio-app>
+<div id="summerize" style="visibility:hidden;"><gradio-app space="Funbi/Summarize"></gradio-app></div>
+<div id="Quest" style="visibility:hidden;"><gradio-app space="Funbi/Quest"></gradio-app></div>
+<div id="Chat2" style="visibility:hidden;"><gradio-app space="Funbi/Chat2"></gradio-app></div>
+<table>
+  <tr>
+    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('summerize').innerHTML;">About Me</td>
+    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('Quest').innerHTML;">Contact Info</td>
+    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('Chat').innerHTML;">Contact Info</td>
+  </tr>
+</table>
+<div id="Gradio"></div>   
+      
+      
+      
           
           <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Portfolio</a> </div>
       </div>
