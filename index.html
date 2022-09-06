@@ -89,13 +89,11 @@ src="https://gradio.s3-us-west-2.amazonaws.com/3.2/gradio.js">
 <div id="summerize" style="visibility:hidden;"><gradio-app space="Funbi/Summarize"></gradio-app></div>
 <div id="Quest" style="visibility:hidden;"><gradio-app space="Funbi/Quest"></gradio-app></div>
 <div id="Chat2" style="visibility:hidden;"><gradio-app space="Funbi/Chat2"></gradio-app></div>
-<table>
-  <tr>
-    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('summerize').innerHTML;">About Me</td>
-    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('Quest').innerHTML;">Contact Info</td>
-    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('Chat').innerHTML;">Contact Info</td>
-  </tr>
-</table>
+  <div>
+    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('summerize').innerHTML;">Text summarizer</td>
+    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('Quest').innerHTML;">Question Answering</td>
+    <td onclick="document.getElementById('Gradio').innerHTML=document.getElementById('Chat').innerHTML;">Chatbot</td>
+  <div>
 <div id="Gradio"></div>   
       
       
